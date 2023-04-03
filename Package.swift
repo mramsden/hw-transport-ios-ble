@@ -7,6 +7,7 @@ let package = Package(
     name: "BleTransport",
     platforms: [
         .iOS(.v13),
+        .tvOS(.v13),
         .macOS(.v12)
     ],
     products: [
